@@ -30,7 +30,7 @@ for(let i=0;i<stuffArray.length;i++){
 // 3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the single lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
 var arrayTest = [3,5,1,7]
 var steal = function(array){
-  let lowest = 100
+  let lowest = array[0]
   for(let i=0;i<array.length;i++){
     if(array[i] < lowest){
       lowest = array[i]

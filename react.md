@@ -34,7 +34,7 @@ Try your best to answer each question on your own before looking up the answer o
  Most packages will be installed from the npm registry and referred to by simply their package name. For example, yarn add react will install the react package from the npm registry.
  
 #### 5. There are three mistakes in this code that would cause it to break our application. Find the mistakes and fix them:
-
+cant use map on the recipes since it is not an array, map would need to be in the render not the render
     import React, { Component } from 'react';
 
     class Recipes extends Component*(1) {
